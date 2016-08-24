@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Coldbrewstatus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="static/css/root.css" />
+</head>
+<body>
+    <div id="body"></div>
+    <script src="static/js/bower_components/requirejs/require.js"></script>
+    <script type="text/javascript">
+        require(['/static/js/config.js'], function () {
+            require(['init_root']);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+
+{
+  "name": "Adsarch",
+  "homepage": "https://github.com/SirKitboard/adsarch",
+  "authors": [
+    "Aditya Balwani <adibalwani@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^0.14.7",
+    "bootstrap": "^3.3.7",
+    "requirejs": "^2.2.0",
+    "backbone": "^1.3.3",
+    "date.format": "^1.2.3",
+    "jquery": "^3.1.0",
+    "jsx-requirejs-plugin": "^0.6.2",
+    "underscore": "^1.8.3"
+  }
+}
